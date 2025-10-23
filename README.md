@@ -60,7 +60,7 @@ The code:
 - Enforces **temperature 0** to reduce randomness.
 - **Validates** and **sanitizes** model output (extracts something like `D3` from free-form text).
 - **Retries once** with a stronger instruction if the first answer is invalid (Tells AI to pick from the list of valid moves, meaning essentially cheap and fast LLM's like gemini-2.5-flash-lite can function)
-- If the model still fails, it picks a random valid move. Because of how strong the second try prompt is, this almost never happens..
+- If the model still fails, it picks a random valid move. Because of how strong the second try prompt is, this almost never happens.
 
 ## Decisions & Trade-offs
 
