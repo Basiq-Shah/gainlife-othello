@@ -78,4 +78,3 @@ The code:
 
 - How to productionize: server proxy, API usage metering, observability (prompt logs, win/loss vs depth).
 - Using **Nx** if a monorepo grows (ui + bots + shared engine).
-- Why SSR/SSG is disabled (requirement) and what CSR means for SEO/perf here (acceptable for a game).
